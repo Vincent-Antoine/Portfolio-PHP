@@ -31,10 +31,7 @@
   --z-index-top: 1000;
 }
 
-#particles-js {
-  z-index: 1;
-  pointer-events: none;
-}
+
 
 #home .row {
   position: relative;

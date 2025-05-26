@@ -1,7 +1,7 @@
 <body class="bg-black text-custom">
     <!--Premier container-->
     <div class="container pt-5 text-white">
-        <div id="particles-js" class="position-absolute top-0 start-0 w-100 h-100"></div>
+        <div class="position-absolute top-0 start-0 w-100 h-100"></div>
         <div class="text-center  text-white container pt-5">
             <div class="p-lg-4" style="max-width: 800px; margin: 0 auto;">
                 <h1 class="mb-3">

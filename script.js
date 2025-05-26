@@ -1,4 +1,3 @@
-particlesJS.load("particles-js", "./assets/json/particles-config.json");
 
 // Back to top button functionality
 document.addEventListener("DOMContentLoaded", function () {
