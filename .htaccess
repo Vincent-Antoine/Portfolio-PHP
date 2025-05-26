@@ -1,0 +1,9 @@
+# AuthType Basic
+# AuthName "Restricted Access"
+# AuthUserFile /.htpasswd
+# Require valid-user
+
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP_HOST} ^vincentcomparato\.fr [NC]
+RewriteRule ^(.*)$ https://vincentcomparato.fr/$1 [L,R=301]

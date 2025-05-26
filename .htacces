@@ -1,0 +1,15 @@
+# AuthType Basic
+# AuthName "Restricted Access"
+# AuthUserFile /home/u99593015/.htpasswd 
+# Require valid-user
+
+
+# Empêcher l'indexation par les moteurs de recherche
+<IfModule mod_headers.c>
+    Header set X-Robots-Tag "noindex, nofollow"
+</IfModule>
+
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP_HOST} ^vincentcomparato\.fr [NC]
+RewriteRule ^(.*)$ https://vincentcomparato.fr/$1 [L,R=301]
