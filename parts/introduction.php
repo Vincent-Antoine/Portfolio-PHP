@@ -4,7 +4,9 @@
         <div id="particles-js" class="position-absolute top-0 start-0 w-100 h-100"></div>
         <div class="text-center  text-white container pt-5">
             <div class="p-lg-4" style="max-width: 800px; margin: 0 auto;">
-                
+                <h1 class="mb-3">
+                    Donnez à votre entreprise <span class="yellow-color">une présence en ligne</span> qui fait la différence
+                </h1>
                 <div class="mx-auto my-3" style="width: 60px; height: 4px; background-color: #ffcf00;"></div>
                 <p class="mb-4">
                     Développeur web basé à Bordeaux, je suis spécialisé dans la création de sites web modernes, performants et optimisés pour le SEO.
